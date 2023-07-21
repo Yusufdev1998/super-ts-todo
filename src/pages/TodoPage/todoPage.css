@@ -1,0 +1,7 @@
+.todo-page {
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../assets/bg.jpeg") no-repeat center/cover;
+  display: grid;
+  place-items: center;
+}
