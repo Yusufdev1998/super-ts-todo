@@ -35,13 +35,18 @@ const TodoItem: React.FC<ITodoItem> = ({
     >
       <div
         style={{
-          display: "flex",
+          display: "grid",
           justifyContent: "space-between",
+          alignItems: "center",
+          gridTemplateColumns: "1fr auto",
         }}
       >
         <Checkbox
           checked={completed}
           color="success"
+          sx={{
+            alignItems: "center",
+          }}
           onChange={handleCheck}
           label={<span>{title}</span>}
           variant="soft"
@@ -60,7 +65,7 @@ const TodoItem: React.FC<ITodoItem> = ({
           <RemoveCircleIcon
             className="icon"
             onClick={handleDelete}
-            color="error"
+            color="warning"
           ></RemoveCircleIcon>
         </div>
       </div>

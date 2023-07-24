@@ -21,9 +21,20 @@ const Todo = () => {
     <Sheet
       variant="solid"
       sx={{
-        padding: "40px 60px",
+        padding: {
+          sm: "40px 60px",
+          xs: "10px 20px",
+        },
+        margin: {
+          xs: "0 10px",
+        },
         borderRadius: "6px",
-        minWidth: 600,
+        minWidth: {
+          sm: 600,
+        },
+        maxWidth: {
+          sm: 800,
+        },
       }}
     >
       <Typography

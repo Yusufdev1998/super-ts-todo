@@ -46,7 +46,7 @@ const TodoForm: React.FC<ITodoForm> = ({
           value={inputTodo}
           onChange={handleChange}
         />
-        <Button color="success" variant="soft">
+        <Button type="submit" color="success" variant="soft">
           {isEdit ? "Edit" : "Add"}
         </Button>
       </div>

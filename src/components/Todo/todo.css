@@ -5,4 +5,20 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-height: 60vh;
+  min-height: 200px;
+  border-radius: 7px;
+  background: #b7f2c3;
+  overflow: auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.no-items {
+  display: grid;
+  place-items: center;
+  color: #5a5a72;
+  font-size: 20px;
+  font-weight: bold;
 }
